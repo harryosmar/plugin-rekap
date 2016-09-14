@@ -1,0 +1,43 @@
+{
+  "name": "harryosmar/plugin-rekap",
+  "type": "library",
+  "description": "PHP Composer Plugin for rekap validation & formatter",
+  "keywords": ["libaries", "helper", "rekap"],
+  "homepage": "https://github.com/harryosmar/plugin-rekap",
+  "authors": [
+    {
+      "name": "harry osmar sitohang",
+      "email": "harryosmarsitohang@gmail.com",
+      "homepage": "https://github.com/harryosmar"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:harryosmar/plugin-rekap"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "mockery/mockery": "^0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PluginRekap\\": "src/"
+    },
+    "files": [
+      "src/Helper/functions_include.php"
+    ]
+  },
+  "autoload-dev": {
+  },
+  "extra": {
+    "branch-alias": {
+
+    }
+  }
+}
