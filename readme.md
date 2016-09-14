@@ -32,7 +32,10 @@ $ composer install
 ```
 
 ## Documentation
-find it here <https://github.com/harryosmar/plugin-rekap/wiki>
+```php
+use PluginRekap\Libraries\Formatter;
+$result = $this->formatter->format('1234x2.7.6'); // result : array (0 => '1234|2',1 => '234|7',2 => '34|6')
+```
 
 ## About
 
