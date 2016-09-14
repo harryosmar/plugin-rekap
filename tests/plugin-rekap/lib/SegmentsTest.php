@@ -45,10 +45,10 @@ class SegmentsTest extends PHPUnit_Framework_TestCase{
             'right' => '5',
         ]), $this->segments->getSegments());
 
-        $this->assertTrue($this->segments->valid('8689x5.5'));
+        $this->assertTrue($this->segments->valid('8689x5.20'));
         $this->assertEquals(array([
             'left' => '8689',
-            'right' => '5.5',
+            'right' => '5.20',
         ]), $this->segments->getSegments());
     }
 

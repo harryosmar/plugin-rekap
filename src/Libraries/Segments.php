@@ -39,7 +39,7 @@ class Segments {
      * @return bool
      */
     private function validateStringSegment($segment){
-        if(preg_match('/^([0-9]{2,4})x((\d)+(\.\d)?(\.\d)?)+$/', $segment, $matches)){
+        if(preg_match('/^([0-9]{2,4})x(([0-9]{1,})+(\.[0-9]{1,})?(\.[0-9]{1,})?)+$/', $segment, $matches)){
             /** example 1234 */
             $left_segment = $matches[1];
 
