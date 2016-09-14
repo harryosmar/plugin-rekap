@@ -19,7 +19,7 @@ class Formatter {
             return null;
         }
 
-        return $this->formatSegments($this->segments->getSegements());
+        return $this->formatSegments($this->segments->getSegments());
     }
 
     private function formatSegments($segments){
