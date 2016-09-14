@@ -6,6 +6,7 @@ rekap formatter
 
 ### Requirements
 - PHP >=5.5.0
+- composer, <https://getcomposer.org/>
 
 ## Installation
 
